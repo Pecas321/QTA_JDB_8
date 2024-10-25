@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dospalabras">
+
+    <TextView
+        android:id="@+id/dospalabrastop"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:background="#5AE4A8"
+        android:backgroundTint="#5AE4A8"
+        android:gravity="center"
+        android:text="Dos palabras"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/descr_dospalabras"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:text="Te voy a ayudar a solucionar el problema de las 2 palabras.                                                                         1.  Ingresa una cadena de caracteres que contenga solo 2 palabras separadas por un espacio.                                                                    2.  Imprimiré una nueva cadena con las posiciones de la primera y segunda palabra intercambiadas (la segunda palabra se imprime primero)"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dospalabrastop"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <EditText
+        android:id="@+id/inputDosPalabras"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Ingresa una cadena de caracteres"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/Bt_solu_dospalabras"
+        android:layout_width="157dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#5AE4A8"
+        android:text="Solucionar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dospalabrastop"
+        app:layout_constraintVertical_bias="0.716"
+        tools:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="193dp"
+        android:layout_height="39dp"
+        android:text="Hola alejing@gmail.com"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
