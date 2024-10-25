@@ -12,10 +12,9 @@
         android:layout_width="409dp"
         android:layout_height="64dp"
         android:background="#5AE4A8"
-        android:backgroundTint="#5AE4A8"
         android:gravity="center"
         android:text="Dos palabras"
-        android:textColor="#000000"
+        android:textColor="#1B2E35"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,16 +25,16 @@
 
     <TextView
         android:id="@+id/descr_dospalabras"
-        android:layout_width="320dp"
-        android:layout_height="240dp"
+        android:layout_width="322dp"
+        android:layout_height="198dp"
         android:text="Te voy a ayudar a solucionar el problema de las 2 palabras.                                                                         1.  Ingresa una cadena de caracteres que contenga solo 2 palabras separadas por un espacio.                                                                    2.  Imprimiré una nueva cadena con las posiciones de la primera y segunda palabra intercambiadas (la segunda palabra se imprime primero)"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.359"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/dospalabrastop"
-        app:layout_constraintVertical_bias="0.336" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <EditText
         android:id="@+id/inputDosPalabras"
@@ -53,11 +52,11 @@
 
     <Button
         android:id="@+id/Bt_solu_dospalabras"
-        android:layout_width="157dp"
-        android:layout_height="65dp"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
         android:backgroundTint="#5AE4A8"
         android:text="Solucionar"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +69,67 @@
         android:layout_width="193dp"
         android:layout_height="39dp"
         android:text="Hola alejing@gmail.com"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="101dp" />
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="81dp"
+        android:background="#5AE4A8"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/icono1"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/icono2"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/icono3"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <TextView
+        android:id="@+id/textView3_dosmitades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dos mitades"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <TextView
+        android:id="@+id/textView4_dospalabras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dos palabras"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <TextView
+        android:id="@+id/textView5_quiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quitar fragmento"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="700dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
